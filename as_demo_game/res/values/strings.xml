@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UMENG SDK</string>
+
+    <string name="make_crash">Make me crash!!</string>
+    <string name="kv_event">K-V Event</string>
+    <string name="normal_event">Event</string>
+
+    <string name="js_in_webview">JS Analytics in Webivew</string>
+    <string name="flush_cache">send cache message ,right now !</string>
+    <string name="default_signin">signin_default</string>
+    <string name="signin">signin</string>
+    <string name="signoff">signoff</string>
+    <string name="orderid">Game pay(contains orderid)</string>
+
+    <string name="game_start">game start</string>
+    <string name="game_fail">game fail</string>
+    <string name="game_finish">game finish</string>
+    <string name="game_pay">game pay</string>
+    <string name="game_paynbuy">game paynbuy</string>
+    <string name="game_buy">game buy</string>
+    <string name="game_use">game use</string>
+    <string name="game_bonus">game bonus</string>
+    <string name="webview_tv">webview tv</string>
+    <string name="ana_name">analytics name</string>
+    <string name="game_name">game name</string>
+
+</resources>

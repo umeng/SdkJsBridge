@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgj">
+
+
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+        <TableRow>
+
+            <Button
+                android:id="@+id/umeng_example_analytics_game_signinDefalut"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:onClick="onButtonClick"
+                android:text="signinDefalut"></Button>
+
+            <Button
+                android:id="@+id/umeng_example_analytics_game_signin"
+                android:onClick="onButtonClick"
+                android:text="SignIn" />
+
+
+
+        </TableRow>
+        <Button
+            android:id="@+id/umeng_example_analytics_game_signoff"
+
+            android:onClick="onButtonClick"
+            android:text="@string/signoff"></Button>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/umeng_example_analytics_game_start"
+                android:onClick="onButtonClick"
+                android:text="@string/game_start"></Button>
+
+            <Button
+                android:id="@+id/umeng_example_analytics_game_fail"
+                android:onClick="onButtonClick"
+                android:text="@string/game_fail"></Button>
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/umeng_example_analytics_game_finish"
+
+                android:onClick="onButtonClick"
+                android:text="@string/game_finish"></Button>
+
+            <Button
+                android:id="@+id/umeng_example_analytics_game_pay"
+
+                android:onClick="onButtonClick"
+                android:text="@string/game_pay"></Button>
+        </TableRow>
+
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/umeng_example_analytics_game_paynbuy"
+
+                android:onClick="onButtonClick"
+                android:text="@string/game_paynbuy"></Button>
+
+            <Button
+                android:id="@+id/umeng_example_analytics_game_buy"
+
+                android:onClick="onButtonClick"
+                android:text="@string/game_buy"></Button>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/umeng_example_analytics_game_use"
+
+                android:onClick="onButtonClick"
+                android:text="@string/game_use"></Button>
+
+            <Button
+                android:id="@+id/umeng_example_analytics_game_bonus"
+
+                android:onClick="onButtonClick"
+                android:text="@string/game_bonus"></Button>
+
+        </TableRow>
+
+
+        <Button
+            android:id="@+id/umeng_example_analytics_game_orderid"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:onClick="onButtonClick"
+            android:text="@string/orderid"></Button>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/setLevel"
+                android:onClick="onButtonClick"
+                android:text="设置游戏等级" />
+
+            <Button
+                android:id="@+id/setLevelSecond"
+                android:onClick="onButtonClick"
+                android:text="游戏等级更改" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</ScrollView>
