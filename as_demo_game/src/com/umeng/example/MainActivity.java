@@ -5,6 +5,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.umeng.analytics.MobclickAgent;
 import com.umeng.example.analytics.AnalyticsHome;
 import com.umeng.example.game.GameAnalyticsHome;
 
@@ -41,10 +43,12 @@ public class MainActivity extends Activity {
     @Override
     public void onResume() {
         super.onResume();
+        MobclickAgent.onResume(this);
     }
 
     @Override
     public void onPause() {
         super.onPause();
+        MobclickAgent.onPause(this);
     }
 }
